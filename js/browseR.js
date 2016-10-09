@@ -69,7 +69,7 @@ function init() {
 	var world = new THREE.SphereGeometry( 500, 60, 40 );
 	world.scale( - 1, 1, 1 );
 	var terrain = new THREE.MeshBasicMaterial( {
-				map: THREE.ImageUtils.loadTexture( 'assests/patterns/IMG_6153.JPG' )
+				map: THREE.ImageUtils.loadTexture( 'assets/patterns/IMG_6153.JPG' )
 						} );
 
 	var object = new THREE.Mesh( world, terrain );
